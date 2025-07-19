@@ -1,6 +1,7 @@
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
-import MobileNavSheet from "./mobile-nav-sheet";
+import DesktopNav from "./desktop-nav/desktop-nav";
+import MobileNavSheet from "./mobile-nav-sheet/mobile-nav-sheet";
 
 export default function Header() {
     return (
@@ -18,7 +19,10 @@ export default function Header() {
                 />
             </Link>
             <div className="flex h-full w-full items-center justify-end p-5">
-                <MobileNavSheet />
+                <DesktopNav />
+                <div className="md:hidden">
+                    <MobileNavSheet />
+                </div>
             </div>
         </header>
     );

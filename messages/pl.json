@@ -3,5 +3,12 @@
         "metadata": {
             "title": "Strona główna"
         }
+    },
+    "navigation": {
+        "navigation": "Nawigacja",
+        "timetable": "Rozkład zajęć",
+        "calendar": "Kalendarz",
+        "yearOrganization": "Organizacja Roku",
+        "settings": "Ustawienia"
     }
 }

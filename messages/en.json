@@ -3,5 +3,12 @@
         "metadata": {
             "title": "Home Page"
         }
+    },
+    "navigation": {
+        "navigation": "Navigation",
+        "timetable": "Timetable",
+        "calendar": "Calendar",
+        "yearOrganization": "Year Organization",
+        "settings": "Settings"
     }
 }
